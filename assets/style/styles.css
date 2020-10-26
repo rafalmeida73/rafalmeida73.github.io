@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 main {
   height: 100vh;
   background-color: #02203c;
@@ -24,6 +28,10 @@ main .row {
 main svg {
   width: 40px;
   height: 40px;
+}
+
+main .imgProfile {
+  filter: grayscale(100%);
 }
 
 #link:hover {
@@ -62,14 +70,7 @@ main svg {
   border-bottom: 2px solid #02203c;
 }
 
-.education p:first-of-type,
-.courses p:first-of-type {
-  font-weight: bold;
-  color: #02203c;
-}
-
-.education :nth-child(2),
-.courses :nth-child(2) {
+.date {
   font-family: Inconsolata, monospace;
   font-size: 16px;
   line-height: 20px;
@@ -88,6 +89,13 @@ main svg {
 
 .course h4 {
   font-size: 25px;
+}
+
+.course p a,
+.education p:first-of-type {
+  font-weight: bold;
+  color: #02203c;
+  font-size: 16px;
 }
 
 .projects h3 {
