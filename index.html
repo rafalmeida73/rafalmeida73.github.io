@@ -11,6 +11,11 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/style/styles.css" />
     <link
       rel="shortcut icon"
@@ -29,7 +34,7 @@
 
   <body>
     <main>
-      <div class="row">
+      <div class="row container">
         <div class="col s12 m6 l6">
           <img
             src="./assets/img/rafael.png"
@@ -39,118 +44,181 @@
         </div>
         <div class="col s12 m6 l6 white-text">
           <h1>Rafael Santana</h1>
-          <h5>Desenvolvedor Web</h5>
-          <p>Idade: 19</p>
-          <p>Celular: (11) 94830-0758</p>
-          <p>Endereço: São Paulo-SP</p>
-
-          <a
-            href="https://github.com/rafalmeida73"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <svg
-              width="65"
-              height="63"
-              viewBox="0 0 65 63"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+          <p class="city">Zona Sul, São Paulo</p>
+          <h5>
+            Estudante de Análise e Desenvolvimento de Sistemas, apaixonado por
+            tecnologia, sempre em busca de desafios e projeto para ter um
+            aprendizado constante. Focado atualmente em desenvolvimento web que
+            é uma área com bastante novidades e diversos conhecimentos que
+            pretendo aprender.
+          </h5>
+          <div class="links">
+            <!-- FACEBOOK -->
+            <a
+              href="https://www.facebook.com/profile.php?id=100003562919028"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="facebook"
             >
-              <path
-                id="git"
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M31.9988 0.0108C14.3293 0.0108 0 14.3377 0 32.0095C0 46.1487 9.1678 58.1393 21.8826 62.3725C23.483 62.6689 24.0712 61.6768 24.0712 60.8311C24.0712 60.0681 24.0393 57.5476 24.0263 54.8759C15.1231 56.8118 13.2463 51.0987 13.2463 51.0987C11.7911 47.3994 9.6934 46.4156 9.6934 46.4156C6.7902 44.4277 9.9143 44.4714 9.9143 44.4714C13.1269 44.6959 14.8183 47.7668 14.8183 47.7668C17.6743 52.659 22.3066 51.2428 24.1314 50.4266C24.4196 48.3585 25.2464 46.9459 26.1629 46.1463C19.0549 45.3396 11.5832 42.5947 11.5832 30.3323C11.5832 26.8397 12.8352 23.9838 14.8797 21.7443C14.5467 20.9365 13.4506 17.6837 15.188 13.2769C15.188 13.2769 17.875 12.4159 23.9909 16.5569C26.5421 15.8494 29.2787 15.4927 31.9965 15.4809C34.7165 15.4927 37.4579 15.8482 40.0127 16.5569C46.1203 12.4183 48.8049 13.2769 48.8049 13.2769C50.5447 17.6849 49.4534 20.94 49.1203 21.7444C51.1719 23.9838 52.4133 26.8397 52.4133 30.3323C52.4133 42.623 44.925 45.3253 37.8016 46.1179C38.9497 47.11 39.9749 49.0577 39.9749 52.0412C39.9749 56.3204 39.9383 59.7692 39.9383 60.8216C39.9383 61.6732 40.5147 62.6689 42.1375 62.357C54.8451 58.1216 64.0012 46.1296 64.0012 31.9988C64.0012 14.3293 49.6743 0 32.0012 0L31.9989 0.0107L31.9988 0.0108Z"
-                fill="black"
-              />
-            </svg>
-          </a>
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  id="facebook"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24ZM26.5016 38.1115V25.0542H30.1059L30.5836 20.5546H26.5016L26.5077 18.3025C26.5077 17.1289 26.6192 16.5001 28.3048 16.5001H30.5581V12H26.9532C22.6231 12 21.0991 14.1828 21.0991 17.8536V20.5551H18.4V25.0547H21.0991V38.1115H26.5016Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
 
-          <a href="mailto:rafaelsantana7213@gmail.com">
-            <svg
-              width="100"
-              height="78"
-              viewBox="0 0 100 78"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+            <!-- GITHUB -->
+            <a
+              href="https://github.com/rafalmeida73"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <g id="email">
-                <path
-                  id="Vector"
-                  d="M93.6075 76.9597H6.24011C2.85346 76.9597 0 74.1941 0 70.7196V7.59778C0 4.21113 2.76557 1.35767 6.24011 1.35767H93.6075C96.9942 1.35767 99.8477 4.12324 99.8477 7.59778V70.7196C99.8477 74.1941 97.0821 76.9597 93.6075 76.9597Z"
-                  fill="#EAEAEA"
-                />
-                <path
-                  id="Vector_2"
-                  d="M12.48 76.9575L49.8386 46.9112L50.1023 45.3058L11.5894 17.5798L11.5015 75.6158L12.48 76.9575Z"
-                  fill="#231F20"
-                  fill-opacity="0.101961"
-                />
-                <path
-                  id="Qesquerda"
-                  d="M6.24011 76.9582C2.76557 76.9582 0 74.1927 0 70.7181V7.5084C0 7.45567 0 7.40294 0 7.3502V7.34434C0.0820296 4.11589 2.64253 3.44794 5.91199 3.40692H6.07605H6.24011H6.40417H6.56823C9.8377 3.44794 12.4041 4.11589 12.4802 7.34434V7.3502C12.4802 7.40294 12.4802 7.45567 12.4802 7.5084V76.9582H6.24011Z"
-                  fill="black"
-                />
-                <path
-                  id="Qdireita"
-                  d="M87.376 76.9595V7.33391C87.376 3.85937 90.1415 3.41406 93.6161 3.41406C97.0906 3.41406 99.8562 3.85937 99.8562 7.33391V70.8073C99.8562 70.86 99.8562 70.9127 99.8562 70.9655V70.9713C99.7742 74.3697 97.0379 77.0474 93.6161 77.0474H87.376V76.9595Z"
-                  fill="black"
-                />
-                <path
-                  id="Vector_3"
-                  d="M66.8537 76.9567L0.515137 10.1026L4.00726 11.5205L50.19 44.7718L99.8472 8.35651V70.7986C99.8472 74.1853 97.0816 76.9509 93.6071 76.9509H66.8595L66.8537 76.9567Z"
-                  fill="url(#paint0_linear)"
-                />
-                <path
-                  id="v"
-                  d="M96.6307 1.78392C97.451 2.22336 98.1952 2.85616 98.7811 3.67646C100.832 6.44203 100.205 10.3619 97.3573 12.4126L77.2893 26.9846L49.8445 46.9998L2.68335 12.6763L2.55445 12.5767L2.4314 12.4771L2.30836 12.3716C2.26734 12.3364 2.22633 12.3013 2.19117 12.2661L2.07399 12.1607L1.96266 12.0493L1.85134 11.938C1.81618 11.9029 1.78102 11.8618 1.74587 11.8208L1.6404 11.7036C-0.24628 9.54158 -0.603694 6.30727 1.08377 3.93427C2.3318 2.24094 4.29465 1.35033 6.25164 1.35033C7.58755 1.35033 8.92346 1.70775 9.99571 2.51047L49.8445 31.4845L89.9629 2.15305C91.0351 1.35033 92.3711 0.99292 93.6191 0.99292C94.6796 0.99292 95.7167 1.25659 96.6424 1.77806L96.6307 1.78392Z"
-                  fill="black"
-                />
-              </g>
-              <defs>
-                <linearGradient
-                  id="paint0_linear"
-                  x1="0.509277"
-                  y1="42.6625"
-                  x2="99.8706"
-                  y2="42.6625"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop stop-opacity="0.101961" />
-                  <stop offset="1" stop-opacity="0.2" />
-                </linearGradient>
-              </defs>
-            </svg>
-          </a>
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="github"
+              >
+                <g id="github">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M24.0432 0.179932C10.8147 0.179932 0.0876465 11.0878 0.0876465 24.5445C0.0876465 35.3096 6.95165 44.4426 16.4699 47.6643C17.6672 47.8899 18.1067 47.1358 18.1067 46.4922C18.1067 45.9112 18.0845 43.9919 18.0742 41.956C11.4097 43.4299 10.0034 39.0812 10.0034 39.0812C8.9137 36.265 7.34358 35.5161 7.34358 35.5161C5.17009 34.0039 7.50742 34.035 7.50742 34.035C9.91297 34.2065 11.1796 36.5458 11.1796 36.5458C13.3162 40.2707 16.7837 39.1938 18.1507 38.5712C18.3657 36.9969 18.9866 35.9212 19.6716 35.3132C14.3508 34.6971 8.7574 32.6079 8.7574 23.2719C8.7574 20.6118 9.6932 18.4383 11.2256 16.732C10.9769 16.1179 10.1569 13.6402 11.4577 10.2841C11.4577 10.2841 13.4693 9.62928 18.0472 12.7816C19.9581 12.2418 22.0074 11.971 24.0432 11.9618C26.0791 11.971 28.13 12.2418 30.0444 12.7816C34.6167 9.62928 36.6256 10.2841 36.6256 10.2841C37.9295 13.6402 37.1091 16.1179 36.8604 16.732C38.3964 18.4383 39.3259 20.6118 39.3259 23.2719C39.3259 32.6301 33.7218 34.6906 28.3874 35.2938C29.2467 36.0499 30.0123 37.5327 30.0123 39.8059C30.0123 43.0655 29.9845 45.6893 29.9845 46.4922C29.9845 47.1406 30.4157 47.9003 31.63 47.6611C41.1431 44.4357 47.9984 35.3059 47.9984 24.5445C47.9984 11.0878 37.273 0.179932 24.0432 0.179932Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M9.16084 35.1623C9.10808 35.2837 8.92084 35.3196 8.75026 35.2365C8.57651 35.157 8.47892 34.992 8.53525 34.8706C8.58682 34.7459 8.77446 34.7116 8.94781 34.7943C9.12196 34.8742 9.22113 35.0408 9.16084 35.1623Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M10.1312 36.263C10.0169 36.3707 9.79356 36.3207 9.64203 36.1504C9.48533 35.9805 9.45598 35.7534 9.57181 35.644C9.68963 35.5363 9.90622 35.5867 10.0633 35.7566C10.22 35.9285 10.2506 36.154 10.1312 36.263Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M11.0757 37.6662C10.9289 37.7699 10.6889 37.6727 10.5405 37.456C10.3938 37.2394 10.3938 36.9795 10.5437 36.8754C10.6925 36.7713 10.9289 36.8649 11.0793 37.08C11.2256 37.2999 11.2256 37.5601 11.0757 37.6662Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M12.3697 39.0219C12.2384 39.1692 11.9587 39.1296 11.754 38.9287C11.5446 38.7322 11.4863 38.4534 11.618 38.3062C11.7509 38.1585 12.0321 38.2 12.2384 38.3994C12.4463 38.5954 12.5097 38.8763 12.3697 39.0219Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M14.1548 39.8091C14.0969 39.9999 13.8275 40.0867 13.5562 40.0056C13.2853 39.9221 13.1079 39.6985 13.1627 39.5057C13.219 39.3136 13.4896 39.2232 13.7629 39.31C14.0334 39.3931 14.2112 39.615 14.1548 39.8091Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M16.1153 39.9552C16.122 40.1561 15.8919 40.3227 15.6071 40.3259C15.3207 40.3328 15.089 40.1702 15.0859 39.9725C15.0859 39.7696 15.3108 39.6045 15.5972 39.5997C15.882 39.594 16.1153 39.7554 16.1153 39.9552Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M17.9397 39.6392C17.9738 39.8353 17.7758 40.0367 17.493 40.0899C17.2149 40.142 16.9575 40.0209 16.9222 39.8264C16.8876 39.6255 17.0892 39.4242 17.3669 39.3721C17.6501 39.3221 17.9036 39.4399 17.9397 39.6392Z"
+                    fill="white"
+                  />
+                </g>
+              </svg>
+            </a>
 
-          <a
-            href="https://www.linkedin.com/in/rafael-santana-5876a117a/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <svg
-              width="64"
-              height="64"
-              viewBox="0 0 64 64"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+            <!-- INSTAGRAM -->
+            <a
+              href="https://www.instagram.com/rrafael_santana/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <path
-                id="link"
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M57.9999 0H6C2.7 0 0 2.7 0 6V58C0 61.3 2.7 64 6 64H57.9999C61.2999 64 63.9999 61.3 63.9999 58V6C63.9999 2.7 61.2999 0 57.9999 0ZM23.9991 51.9999H16.0006V23.9992H23.9991V51.9999V51.9999ZM19.9987 19.9987C17.7877 19.9987 15.9994 18.2105 15.9994 15.9994C15.9994 13.7872 17.7876 11.999 19.9987 11.999C22.2109 11.999 23.9991 13.7872 23.9991 15.9994C23.9991 18.2104 22.2109 19.9987 19.9987 19.9987ZM51.9999 51.9999H44.0013V36.0005C44.0013 33.7883 42.212 32.0001 40.0009 32.0001C37.7887 32.0001 36.0005 33.7883 36.0005 36.0005V51.9999H27.9995V23.9992H36.0005V28.9634C37.6481 26.698 40.1757 23.9992 42.9998 23.9992C47.9758 23.9992 51.9998 28.4756 51.9998 33.9997V51.9999H51.9999Z"
-                fill="black"
-              />
-            </svg>
-          </a>
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="instagram"
+              >
+                <g id="instagram">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24ZM24.0012 11.2C20.5249 11.2 20.0886 11.2152 18.7233 11.2773C17.3606 11.3397 16.4305 11.5555 15.6166 11.872C14.7747 12.1989 14.0606 12.6363 13.3491 13.348C12.6371 14.0595 12.1997 14.7736 11.8717 15.6152C11.5544 16.4294 11.3384 17.3598 11.2771 18.7219C11.216 20.0873 11.2 20.5238 11.2 24.0001C11.2 27.4764 11.2155 27.9114 11.2773 29.2767C11.34 30.6394 11.5557 31.5695 11.872 32.3834C12.1992 33.2253 12.6365 33.9394 13.3483 34.6509C14.0595 35.3629 14.7736 35.8013 15.615 36.1283C16.4294 36.4448 17.3598 36.6605 18.7222 36.7229C20.0876 36.7851 20.5236 36.8003 23.9996 36.8003C27.4762 36.8003 27.9111 36.7851 29.2765 36.7229C30.6391 36.6605 31.5703 36.4448 32.3848 36.1283C33.2264 35.8013 33.9394 35.3629 34.6506 34.6509C35.3626 33.9394 35.8 33.2253 36.128 32.3837C36.4427 31.5695 36.6587 30.6391 36.7227 29.277C36.784 27.9116 36.8 27.4764 36.8 24.0001C36.8 20.5238 36.784 20.0876 36.7227 18.7222C36.6587 17.3595 36.4427 16.4294 36.128 15.6155C35.8 14.7736 35.3626 14.0595 34.6506 13.348C33.9386 12.636 33.2266 12.1987 32.384 11.872C31.5679 11.5555 30.6373 11.3397 29.2746 11.2773C27.9092 11.2152 27.4746 11.2 23.9972 11.2H24.0012Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M22.8529 13.5067C23.1937 13.5062 23.574 13.5067 24.0012 13.5067C27.4188 13.5067 27.8239 13.519 29.1735 13.5803C30.4215 13.6374 31.0989 13.8459 31.5501 14.0211C32.1474 14.2531 32.5733 14.5304 33.021 14.9784C33.469 15.4264 33.7464 15.8531 33.9789 16.4505C34.1541 16.9011 34.3629 17.5785 34.4197 18.8265C34.481 20.1758 34.4944 20.5812 34.4944 23.9972C34.4944 27.4132 34.481 27.8186 34.4197 29.1679C34.3626 30.4159 34.1541 31.0933 33.9789 31.5439C33.7469 32.1413 33.469 32.5666 33.021 33.0144C32.573 33.4624 32.1477 33.7397 31.5501 33.9717C31.0994 34.1477 30.4215 34.3557 29.1735 34.4128C27.8242 34.4741 27.4188 34.4874 24.0012 34.4874C20.5833 34.4874 20.1782 34.4741 18.8289 34.4128C17.5809 34.3552 16.9035 34.1466 16.4521 33.9714C15.8547 33.7394 15.428 33.4621 14.98 33.0141C14.532 32.5661 14.2547 32.1405 14.0222 31.5429C13.847 31.0922 13.6382 30.4149 13.5814 29.1669C13.52 27.8175 13.5078 27.4122 13.5078 23.994C13.5078 20.5758 13.52 20.1726 13.5814 18.8233C13.6384 17.5753 13.847 16.8979 14.0222 16.4467C14.2542 15.8494 14.532 15.4227 14.98 14.9747C15.428 14.5267 15.8547 14.2494 16.4521 14.0168C16.9033 13.8408 17.5809 13.6328 18.8289 13.5755C20.0097 13.5222 20.4673 13.5062 22.8529 13.5035V13.5067ZM30.8338 15.632C29.9858 15.632 29.2978 16.3193 29.2978 17.1675C29.2978 18.0155 29.9858 18.7035 30.8338 18.7035C31.6818 18.7035 32.3698 18.0155 32.3698 17.1675C32.3698 16.3195 31.6818 15.632 30.8338 15.632ZM24.0012 17.4267C20.371 17.4267 17.4278 20.37 17.4278 24.0001C17.4278 27.6303 20.371 30.5722 24.0012 30.5722C27.6314 30.5722 30.5735 27.6303 30.5735 24.0001C30.5735 20.37 27.6314 17.4267 24.0012 17.4267Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M24.0012 19.7334C26.3575 19.7334 28.2679 21.6436 28.2679 24.0001C28.2679 26.3564 26.3575 28.2668 24.0012 28.2668C21.6446 28.2668 19.7345 26.3564 19.7345 24.0001C19.7345 21.6436 21.6446 19.7334 24.0012 19.7334Z"
+                    fill="white"
+                  />
+                </g>
+              </svg>
+            </a>
+
+            <!-- LINKEDIN -->
+            <a
+              href="https://www.linkedin.com/in/rafael-santana-5876a117a/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="linkedin"
+            >
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  id="linkedin"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24ZM16.9605 19.8778H11.5216V36.2196H16.9605V19.8778ZM17.3188 14.8227C17.2835 13.2204 16.1377 12 14.277 12C12.4164 12 11.2 13.2204 11.2 14.8227C11.2 16.3918 12.3805 17.6473 14.2064 17.6473H14.2412C16.1377 17.6473 17.3188 16.3918 17.3188 14.8227ZM36.5754 26.8497C36.5754 21.8303 33.8922 19.4941 30.3131 19.4941C27.4254 19.4941 26.1325 21.0802 25.4107 22.1929V19.8783H19.9711C20.0428 21.4117 19.9711 36.22 19.9711 36.22H25.4107V27.0934C25.4107 26.605 25.446 26.1178 25.5898 25.7682C25.9829 24.7924 26.8779 23.7822 28.3805 23.7822C30.3494 23.7822 31.1365 25.2807 31.1365 27.4767V36.2196H36.5752L36.5754 26.8497Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="contact">
+            <a
+              class="waves-effect waves-light btn"
+              href="mailto:rafaelsantana7213@gmail.com"
+              ><i class="material-icons left">email</i>Enviar um email</a
+            >
+          </div>
         </div>
       </div>
     </main>
 
     <div class="container">
       <div class="me">
-        <h2>Olá_</h2>
+        <h2>SOBRE MIM</h2>
         <p>
           Eu sou o Rafael Santana, estudante de Análise e Desenvolvimento de
           Sistemas. Focado em desenvolvimento web procuro sempre escrever código
@@ -162,118 +230,152 @@
       </div>
 
       <div class="resume">
-        <h2>Resumo_</h2>
-        <div class="row">
-          <div class="col s12 m6 l6 education">
-            <h4>Educação</h4>
+        <div class="col s12 m12 l6 education">
+          <h3>FORMAÇÃO ACADÊMICA</h3>
 
-            <div>
-              <p>Analise e Desenvolvimento de Sistemas</p>
-              <p class="date">2019 - 2021</p>
-              <p>Uninove</p>
-            </div>
+          <div class="ads">
+            <p>Análise e Desenvolvimento de Sistemas</p>
+            <p class="date">2019 - 2021</p>
+            <p>Uninove</p>
           </div>
 
-          <div class="col s12 m6 l6 course">
-            <h4>Cursos complementares</h4>
+          <h3 class="courseTitle">CURSOS COMPLEMENTARES</h3>
 
-            <div class="courses">
-              <p><a href="#">Inglês</a></p>
-              <p class="date">2016-2018</p>
-              <p>Cidadão Pró-Mundo</p>
+          <div class="row center-align">
+            <div class="col s12 m6 l6">
+              <div class="courses">
+                <p>
+                  <a
+                    href="https://drive.google.com/file/d/1i-797GuLtIlLSNEbPE6gFIU9RRjS1JIv/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Web Full Stack Node
+                  </a>
+                </p>
+                <p class="date">185 horas</p>
+                <p>Digital House</p>
+              </div>
             </div>
 
-            <div class="courses">
-              <p>
-                <a
-                  href="https://drive.google.com/file/d/1b5QREN17ZP840y68HcsXfZ41vgeW8H6F/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Microsoft Excel
-                </a>
-              </p>
-              <p class="date">11 horas</p>
-              <p>Udemy</p>
+            <div class="col s12 m6 l6">
+              <div class="courses">
+                <p><a href="#">Inglês</a></p>
+                <p class="date">2016-2018</p>
+                <p>Cidadão Pró-Mundo</p>
+              </div>
             </div>
 
-            <div class="courses">
-              <p>
-                <a
-                  href="https://drive.google.com/file/d/1b9UyZWeGBx43Gm_q0H6wvBbE9eLNOjwl/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  HTML e CSS na prática
-                </a>
-              </p>
-              <p class="date">24 horas</p>
-              <p> Fundação Bradesco</p>
+            <div class="col s12 m6 l6">
+              <div class="courses">
+                <p>
+                  <a
+                    href="https://drive.google.com/file/d/1b5QREN17ZP840y68HcsXfZ41vgeW8H6F/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Microsoft Excel
+                  </a>
+                </p>
+                <p class="date">11 horas</p>
+                <p>Udemy</p>
+              </div>
             </div>
 
-            <div class="courses">
-              <p>
-                <a
-                  href="https://drive.google.com/file/d/11zqdtmPxB6Of-YNfMY5uuxmu5fmWnIvo/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Web Moderno com JavaScript
-                </a>
-              </p>
-              <p class="date">76 horas</p>
-              <p>Udemy</p>
+            <div class="col s12 m6 l6">
+              <div class="courses">
+                <p>
+                  <a
+                    href="https://drive.google.com/file/d/1b9UyZWeGBx43Gm_q0H6wvBbE9eLNOjwl/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    HTML e CSS na prática
+                  </a>
+                </p>
+                <p class="date">24 horas</p>
+                <p> Fundação Bradesco</p>
+              </div>
             </div>
 
-            <div class="courses">
-              <p>
-                <a
-                  href="https://drive.google.com/file/d/1pf-uWx0VOyfO1vcw61YBKqn4Rkn0i8nM/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Banco de dados SQL
-                </a>
-              </p>
-              <p class="date">36 horas</p>
-              <p>Udemy</p>
+            <div class="col s12 m6 l6">
+              <div class="courses">
+                <p>
+                  <a
+                    href="https://drive.google.com/file/d/11zqdtmPxB6Of-YNfMY5uuxmu5fmWnIvo/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Web Moderno com JavaScript
+                  </a>
+                </p>
+                <p class="date">76 horas</p>
+                <p>Udemy</p>
+              </div>
             </div>
 
-            <div class="courses">
-              <p>
-                <a
-                  href="https://drive.google.com/file/d/1i-797GuLtIlLSNEbPE6gFIU9RRjS1JIv/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Web Full Stack Node
-                </a>
-              </p>
-              <p class="date">185 horas</p>
-              <p>Digital House</p>
+            <div class="col s12 m6 l6">
+              <div class="courses">
+                <p>
+                  <a
+                    href="https://drive.google.com/file/d/1pf-uWx0VOyfO1vcw61YBKqn4Rkn0i8nM/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Banco de dados SQL
+                  </a>
+                </p>
+                <p class="date">36 horas</p>
+                <p>Udemy</p>
+              </div>
             </div>
 
-            <div class="courses">
-              <p>
-                <a
-                  href="https://drive.google.com/file/d/1w4WvBMbremaJokmsoL_2oR2WQ6CcJKKX/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  React Js do zero ao avançado na pratica
-                </a>
-              </p>
-              <p class="date">18 horas</p>
-              <p>Udemy</p>
+            <div class="col s12 m12 l12">
+              <div class="courses">
+                <p>
+                  <a
+                    href="https://drive.google.com/file/d/1w4WvBMbremaJokmsoL_2oR2WQ6CcJKKX/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    React Js do zero ao avançado na pratica
+                  </a>
+                </p>
+                <p class="date">18 horas</p>
+                <p>Udemy</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
       <div class="projects">
-        <h3>Projetos_</h3>
+        <h4>PROJETOS</h4>
         <div class="project">
-          <p>Broken Out</p>
+          <div class="carousel">
+            <p>Broken Out</p>
+            <a class="carousel-item" href="#one!" title="Página inical"
+              ><img src="./assets/img/brokenOut1.png"
+            /></a>
+            <a class="carousel-item" href="#two!" title="Página sobre"
+              ><img src="./assets/img/brokenOut2.png"
+            /></a>
+            <a class="carousel-item" href="#three!" title="Página jogos"
+              ><img src="./assets/img/brokenOut3.png"
+            /></a>
+            <a
+              class="carousel-item"
+              href="#four!"
+              title="Página jogo selecionado"
+              ><img src="./assets/img/brokenOut4.png"
+            /></a>
+            <a class="carousel-item" href="#five!" title="Página de login"
+              ><img src="./assets/img/brokenOut5.png"
+            /></a>
+            <a class="carousel-item" href="#six!" title="Página de cadastro"
+              ><img src="./assets/img/brokenOut6.png"
+            /></a>
+          </div>
           <p class="center-align">
             O Broken Out é um site que visa facilitar o acesso a informações de
             jogos, seja do celular, console ou desktop. Disponibilizamos uma
@@ -284,20 +386,34 @@
               href="https://brokenoutt.herokuapp.com"
               target="_blank"
               rel="noopener noreferrer"
-              >Broken Out</a
             >
+              Broken Out
+            </a>
           </p>
-          <iframe
-            style="border: 1px solid rgba(0, 0, 0, 0.1)"
-            width="100%"
-            height="450"
-            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F59S8Jy8XfS0D2lpmD01KFi%2FbrokenOut%3Fnode-id%3D0%253A1"
-            allowfullscreen
-          ></iframe>
         </div>
 
         <div class="project">
-          <p>High Performance</p>
+          <div class="carousel">
+            <p>High Performance</p>
+            <a class="carousel-item" href="#one!" title="Página inical"
+              ><img src="./assets/img/high1.png"
+            /></a>
+            <a class="carousel-item" href="#two!" title="Página sobre"
+              ><img src="./assets/img/high2.png"
+            /></a>
+            <a class="carousel-item" href="#three!" title="Página jogos"
+              ><img src="./assets/img/high5.png"
+            /></a>
+            <a
+              class="carousel-item"
+              href="#four!"
+              title="Página jogo selecionado"
+              ><img src="./assets/img/high4.png"
+            /></a>
+            <a class="carousel-item" href="#five!" title="Página de login"
+              ><img src="./assets/img/high3.png"
+            /></a>
+          </div>
           <p class="center-align">
             O projeto High Performance é um app voltado para educadores físicos
             que desejam uma ferramenta de interação com seus alunos de uma
@@ -312,39 +428,18 @@
               >High Performance</a
             >
           </p>
-          <iframe
-            style="border: 1px solid rgba(0, 0, 0, 0.1)"
-            width="100%"
-            height="450"
-            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FcGvqLdRXcWt8H8HQFzA4UE%2FStrava%3Fnode-id%3D0%253A1"
-            allowfullscreen
-          ></iframe>
-        </div>
-
-        <div class="project">
-          <p class="center-align">
-            Veja outros projetos no meu Git Hub:
-            <a
-              href="https://github.com/rafalmeida73"
-              target="_blank"
-              rel="noopener noreferrer"
-              >rafalmeida73</a
-            >
-          </p>
         </div>
       </div>
 
       <div class="tech">
         <h3 class="center-align">Algumas tecnologias que utilizo</h3>
         <div class="icons">
-          <img src="./assets/img/html.svg" alt="Html" />
-          <img src="./assets/img/git.svg" alt="Git" />
-          <img src="./assets/img/node.svg" alt="JavaScript" />
-          <img src="./assets/img/mysql.svg" alt="Mysql" />
-          <img src="./assets/img/materialize.svg" alt="Materialize" />
-          <img src="./assets/img/react.svg" alt="React" />
-          <img src="./assets/img/firebase.svg" alt="Firebase" />
-          <img src="./assets/img/css.svg" alt="Css" />
+          <img src="./assets/img/html.png" alt="Html" />
+          <img src="./assets/img/git.png" alt="Git" />
+          <img src="./assets/img/mysql.png" alt="Mysql" />
+          <img src="./assets/img/react.png" alt="React" />
+          <img src="./assets/img/firebase.png" alt="Firebase" />
+          <img src="./assets/img/css.png" alt="Css" />
         </div>
       </div>
     </div>
@@ -354,6 +449,12 @@
     </footer>
 
     <!--JavaScript at end of body for optimized loading-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".carousel").carousel();
+      });
+    </script>
   </body>
 </html>
