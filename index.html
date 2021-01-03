@@ -7,10 +7,6 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
@@ -45,13 +41,13 @@
         <div class="col s12 m6 l6 white-text">
           <h1>Rafael Santana</h1>
           <p class="city">Zona Sul, São Paulo</p>
-          <h5>
+          <p class="desc">
             Estudante de Análise e Desenvolvimento de Sistemas, apaixonado por
             tecnologia, sempre em busca de desafios e projeto para ter um
             aprendizado constante. Focado atualmente em desenvolvimento web que
             é uma área com bastante novidades e diversos conhecimentos que
             pretendo aprender.
-          </h5>
+          </p>
           <div class="links">
             <!-- FACEBOOK -->
             <a
@@ -59,6 +55,7 @@
               target="_blank"
               rel="noopener noreferrer"
               class="facebook"
+              aria-label="Facebook"
             >
               <svg
                 width="48"
@@ -82,6 +79,7 @@
               href="https://github.com/rafalmeida73"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="GitHub"
             >
               <svg
                 width="48"
@@ -149,6 +147,7 @@
               href="https://www.instagram.com/rrafael_santana/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Instagram"
             >
               <svg
                 width="48"
@@ -187,6 +186,7 @@
               target="_blank"
               rel="noopener noreferrer"
               class="linkedin"
+              aria-label="Linkedin"
             >
               <svg
                 width="48"
@@ -209,8 +209,11 @@
             <a
               class="waves-effect waves-light btn"
               href="mailto:rafaelsantana7213@gmail.com"
-              ><i class="material-icons left">email</i>Enviar um email</a
+              aria-label="Enviar e-mail"
             >
+              <i class="material-icons left">email</i>
+              Enviar um e-mail
+            </a>
           </div>
         </div>
       </div>
@@ -249,6 +252,7 @@
                     href="https://drive.google.com/file/d/1i-797GuLtIlLSNEbPE6gFIU9RRjS1JIv/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Certificado Web Full Stack Node"
                   >
                     Web Full Stack Node
                   </a>
@@ -260,7 +264,9 @@
 
             <div class="col s12 m6 l6">
               <div class="courses">
-                <p><a href="#">Inglês</a></p>
+                <p>
+                  <a href="#" aria-label="Certificado Inglês"> Inglês </a>
+                </p>
                 <p class="date">2016-2018</p>
                 <p>Cidadão Pró-Mundo</p>
               </div>
@@ -273,6 +279,7 @@
                     href="https://drive.google.com/file/d/1b5QREN17ZP840y68HcsXfZ41vgeW8H6F/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Certificado Microsoft Excel"
                   >
                     Microsoft Excel
                   </a>
@@ -289,6 +296,7 @@
                     href="https://drive.google.com/file/d/1b9UyZWeGBx43Gm_q0H6wvBbE9eLNOjwl/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Certificado HTML e CSS na prática"
                   >
                     HTML e CSS na prática
                   </a>
@@ -305,6 +313,7 @@
                     href="https://drive.google.com/file/d/11zqdtmPxB6Of-YNfMY5uuxmu5fmWnIvo/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Certificado Web Moderno com JavaScript"
                   >
                     Web Moderno com JavaScript
                   </a>
@@ -321,6 +330,7 @@
                     href="https://drive.google.com/file/d/1pf-uWx0VOyfO1vcw61YBKqn4Rkn0i8nM/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Certificado Banco de dados SQL"
                   >
                     Banco de dados SQL
                   </a>
@@ -337,6 +347,7 @@
                     href="https://drive.google.com/file/d/1w4WvBMbremaJokmsoL_2oR2WQ6CcJKKX/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Certificado React Js do zero ao avançado na pratica"
                   >
                     React Js do zero ao avançado na pratica
                   </a>
@@ -350,31 +361,61 @@
       </div>
 
       <div class="projects">
-        <h4>PROJETOS</h4>
+        <h3>PROJETOS</h3>
         <div class="project">
           <div class="carousel">
             <p>Broken Out</p>
-            <a class="carousel-item" href="#one!" title="Página inical"
-              ><img src="./assets/img/brokenOut1.png"
-            /></a>
-            <a class="carousel-item" href="#two!" title="Página sobre"
-              ><img src="./assets/img/brokenOut2.png"
-            /></a>
-            <a class="carousel-item" href="#three!" title="Página jogos"
-              ><img src="./assets/img/brokenOut3.png"
-            /></a>
+            <a
+              class="carousel-item"
+              href="#one!"
+              title="Página inical"
+              aria-label="Página inical"
+            >
+              <img src="./assets/img/brokenOut1.png" alt="Página inical" />
+            </a>
+            <a
+              class="carousel-item"
+              href="#two!"
+              title="Página sobre"
+              aria-label="Página sobre"
+            >
+              <img src="./assets/img/brokenOut2.png" alt="Página sobre" />
+            </a>
+            <a
+              class="carousel-item"
+              href="#three!"
+              title="Página jogos"
+              aria-label="Página jogos"
+            >
+              <img src="./assets/img/brokenOut3.png" alt="Página jogos" />
+            </a>
             <a
               class="carousel-item"
               href="#four!"
               title="Página jogo selecionado"
-              ><img src="./assets/img/brokenOut4.png"
-            /></a>
-            <a class="carousel-item" href="#five!" title="Página de login"
-              ><img src="./assets/img/brokenOut5.png"
-            /></a>
-            <a class="carousel-item" href="#six!" title="Página de cadastro"
-              ><img src="./assets/img/brokenOut6.png"
-            /></a>
+              aria-label="Página jogo selecionado"
+            >
+              <img
+                src="./assets/img/brokenOut4.png"
+                alt="Página jogo selecionado"
+              />
+            </a>
+            <a
+              class="carousel-item"
+              href="#five!"
+              title="Página de login"
+              aria-label="Página de login"
+            >
+              <img src="./assets/img/brokenOut5.png" alt="Página de login" />
+            </a>
+            <a
+              class="carousel-item"
+              href="#six!"
+              title="Página de cadastro"
+              aria-label="Página de cadastro"
+            >
+              <img src="./assets/img/brokenOut6.png" alt="Página de cadastro" />
+            </a>
           </div>
           <p class="center-align">
             O Broken Out é um site que visa facilitar o acesso a informações de
@@ -386,6 +427,7 @@
               href="https://brokenoutt.herokuapp.com"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Broken Out"
             >
               Broken Out
             </a>
@@ -395,24 +437,46 @@
         <div class="project">
           <div class="carousel">
             <p>High Performance</p>
-            <a class="carousel-item" href="#one!" title="Página inical"
-              ><img src="./assets/img/high1.png"
-            /></a>
-            <a class="carousel-item" href="#two!" title="Página sobre"
-              ><img src="./assets/img/high2.png"
-            /></a>
-            <a class="carousel-item" href="#three!" title="Página jogos"
-              ><img src="./assets/img/high5.png"
-            /></a>
+            <a
+              class="carousel-item"
+              href="#one!"
+              title="Página inical"
+              aria-label="Página inical"
+            >
+              <img src="./assets/img/high1.png" alt="Página inical" />
+            </a>
+            <a
+              class="carousel-item"
+              href="#two!"
+              title="Página sobre"
+              aria-label="Página sobre"
+            >
+              <img src="./assets/img/high2.png" alt="Página sobre" />
+            </a>
+            <a
+              class="carousel-item"
+              href="#three!"
+              title="Página jogos"
+              aria-label="Página jogos"
+            >
+              <img src="./assets/img/high5.png" alt="Página jogos" />
+            </a>
             <a
               class="carousel-item"
               href="#four!"
               title="Página jogo selecionado"
-              ><img src="./assets/img/high4.png"
-            /></a>
-            <a class="carousel-item" href="#five!" title="Página de login"
-              ><img src="./assets/img/high3.png"
-            /></a>
+              aria-label="Página jogo selecionado"
+            >
+              <img src="./assets/img/high4.png" alt="Página jogo selecionado" />
+            </a>
+            <a
+              class="carousel-item"
+              href="#five!"
+              title="Página de login"
+              aria-label="Página de login"
+            >
+              <img src="./assets/img/high3.png" alt="Página de login" />
+            </a>
           </div>
           <p class="center-align">
             O projeto High Performance é um app voltado para educadores físicos
@@ -425,6 +489,7 @@
               href="https://highperformance.herokuapp.com"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="High Performance"
               >High Performance</a
             >
           </p>
@@ -432,7 +497,7 @@
       </div>
 
       <div class="tech">
-        <h3 class="center-align">Algumas tecnologias que utilizo</h3>
+        <h4 class="center-align">Algumas tecnologias que utilizo</h4>
         <div class="icons">
           <img src="./assets/img/html.png" alt="Html" />
           <img src="./assets/img/git.png" alt="Git" />
@@ -445,7 +510,7 @@
     </div>
 
     <footer>
-      <center>Copyright © 2020 Rafael Santana. All Rights Reserved</center>
+      <center>Copyright © 2021 Rafael Santana. All Rights Reserved</center>
     </footer>
 
     <!--JavaScript at end of body for optimized loading-->
