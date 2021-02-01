@@ -1,3 +1,7 @@
+:root {
+  --primary: #3bbbe8;
+}
+
 body {
   font-family: "Inter", sans-serif;
   background-color: #141414;
@@ -13,6 +17,18 @@ main {
 
 main h1 {
   font-size: 20px;
+}
+
+main #imageProfile {
+  max-width: 100%;
+}
+
+main #imageProfile circle {
+  fill: var(--primary);
+}
+
+#titleStroke {
+  fill: var(--primary);
 }
 
 main .desc {
@@ -32,7 +48,7 @@ main .row {
   align-items: center;
 }
 
-main svg {
+main .links svg {
   width: 40px;
   height: 40px;
 }
@@ -43,15 +59,11 @@ main .links {
   margin-top: 30px;
 }
 
-#link:hover {
-  fill: #0e76a8;
-}
-
 .github:hover #github path,
 .facebook:hover #facebook,
 .instagram:hover #instagram path,
 .linkedin:hover #linkedin {
-  fill: #3bbbe8;
+  fill: var(--primary);
 }
 
 .contact {
@@ -60,12 +72,12 @@ main .links {
 
 .contact a {
   width: 100%;
-  background-color: #3bbbe8;
+  background-color: var(--primary);
   font-size: 9px;
 }
 
 .contact a:hover {
-  background-color: #3bbbe8;
+  background-color: var(--primary);
 }
 
 .me {
@@ -101,7 +113,7 @@ main .links {
 }
 
 .ads p:first-of-type {
-  color: #3bbbe8;
+  color: var(--primary);
 }
 
 .courseTitle {
@@ -127,8 +139,8 @@ main .links {
   color: #fff;
 }
 
-.course a {
-  color: #3bbbe8;
+.link {
+  color: var(--primary) !important;
 }
 
 .course p a,
@@ -153,7 +165,7 @@ main .links {
 }
 
 .project a {
-  color: #3bbbe8;
+  color: var(--primary);
 }
 
 .tech {
