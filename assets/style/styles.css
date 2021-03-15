@@ -61,7 +61,6 @@ main .links {
 
 .github:hover #github path,
 .facebook:hover #facebook,
-.instagram:hover #instagram path,
 .linkedin:hover #linkedin {
   fill: var(--primary);
 }
@@ -140,7 +139,7 @@ main .links {
 }
 
 .link {
-  color: var(--primary) !important;
+  color: var(--primary);
 }
 
 .course p a,
@@ -194,6 +193,36 @@ footer {
   padding: 50px;
   color: #fff;
   font-size: 16px;
+}
+
+.colorHandler {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+}
+
+input[type="color"] {
+  -webkit-appearance: none;
+  border: none;
+  width: 32px;
+  height: 32px;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+}
+
+.colorHandler button{
+  height: auto;
+  line-height: normal;
+  margin-left: 10px;
+  background-color: var(--primary);
+}
+
+.colorHandler button:focus{
+  background-color: var(--primary);
 }
 
 @media (min-width: 768px) {
