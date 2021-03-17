@@ -295,8 +295,7 @@ input[type="color"]::-webkit-color-swatch {
     height: 250px;
   }
   main .desc {
-    font-size: 8px;
-    text-align: justify;
+    display: none;
   }
   main h1 {
     font-size: 15px;
