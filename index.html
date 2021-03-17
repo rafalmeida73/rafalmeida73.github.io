@@ -142,6 +142,7 @@
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
+              id="git"
             >
               <svg
                 width="48"
@@ -273,6 +274,24 @@
             <p id="myP">Análise e Desenvolvimento de Sistemas</p>
             <p class="date">2019 - 2021</p>
             <p>Uninove</p>
+          </div>
+          <!-- experiência -->
+          <h3>EXPERIÊNCIA</h3>
+          <div class="experience">
+            <div class="row center-align">
+              <div class="col s12 m12 l12">
+                <p class="xp">Desenvolvedor Full Stack</p>
+                <p class="date">2021 - Atual</p>
+                <a
+                  href="https://valiantgroup.com.br"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Valiant Group"
+                >
+                  Valiant Group
+                </a>
+              </div>
+            </div>
           </div>
 
           <h3 class="courseTitle">CURSOS COMPLEMENTARES</h3>
@@ -585,35 +604,34 @@
     <script>
       function changeColor() {
         var _currentFill = document.getElementById("color").value;
-        console.log(_currentFill);
         $svg = $("#imageProfile");
         $("#circle", $svg).attr("style", "fill:" + _currentFill);
         $("#titleStroke", $svg).attr("style", "fill:" + _currentFill);
         document.getElementById("email").style.background = _currentFill;
         document.getElementById("btnColor").style.background = _currentFill;
         document.getElementsByClassName(".link").color = _currentFill;
-        $("#facebook").hover(
+        $(".facebook").hover(
           function () {
-            $(this).css("fill", _currentFill);
+            $("#facebook").css("fill", _currentFill);
           },
           function () {
-            $(this).css("fill", "white");
+            $("#facebook").css("fill", "white");
           }
         );
-        $("#linkedin").hover(
+        $(".linkedin").hover(
           function () {
-            $(this).css("fill", _currentFill);
+            $("#linkedin").css("fill", _currentFill);
           },
           function () {
-            $(this).css("fill", "white");
+            $("#linkedin").css("fill", "white");
           }
         );
-        $(".github").hover(
+        $("#git").hover(
           function () {
-            $(this).css("fill", _currentFill);
+            $(".github").css("fill", _currentFill);
           },
           function () {
-            $(this).css("fill", "white");
+            $(".github").css("fill", "white");
           }
         );
         $("a").hover(
@@ -630,6 +648,10 @@
         x = document.querySelectorAll(".link");
         for (i = 0; i < x.length; i++) {
           x[i].style.color = _currentFill;
+        }
+        xp = document.querySelectorAll(".xp");
+        for (i = 0; i < xp.length; i++) {
+          xp[i].style.color = _currentFill;
         }
       }
     </script>
