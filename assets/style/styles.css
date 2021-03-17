@@ -294,9 +294,6 @@ input[type="color"]::-webkit-color-swatch {
   main {
     height: 250px;
   }
-  main .desc {
-    display: none;
-  }
   main h1 {
     font-size: 15px;
   }
@@ -315,5 +312,8 @@ input[type="color"]::-webkit-color-swatch {
 @media (max-height: 420px) {
   main .row {
     margin-top: 20%;
+  }
+  main .desc {
+    display: none;
   }
 }
