@@ -294,6 +294,23 @@ input[type="color"]::-webkit-color-swatch {
   main {
     height: 250px;
   }
+  main .desc {
+    font-size: 8px;
+    text-align: justify;
+  }
+  main h1 {
+    font-size: 15px;
+  }
+  main .city {
+    font-size: 10px;
+  }
+  main .links svg {
+    width: 25px;
+    height: 25px;
+  }
+  .contact a {
+    font-size: 7px;
+  }
 }
 
 @media (max-height: 420px) {
