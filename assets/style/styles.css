@@ -238,6 +238,10 @@ input[type="color"]::-webkit-color-swatch {
   background-color: var(--primary);
 }
 
+.btn:focus, .btn-large:focus, .btn-small:focus, .btn-floating:focus {
+  background-color: var(--primary) !important;
+}
+
 @media (min-width: 768px) {
   main h1 {
     font-size: 30px;
