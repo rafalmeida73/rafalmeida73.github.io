@@ -60,9 +60,7 @@ main .links {
   margin-top: 30px;
 }
 
-.github:hover #github path,
-.facebook:hover #facebook,
-.linkedin:hover #linkedin {
+.github:hover #github path, .facebook:hover #facebook, .linkedin:hover #linkedin {
   fill: var(--primary);
 }
 
@@ -112,8 +110,7 @@ main .links {
   margin: 100px 0;
 }
 
-.ads p:first-of-type,
-.experience p:first-of-type {
+.ads p:first-of-type, .experience p:first-of-type {
   color: var(--primary);
 }
 
@@ -131,9 +128,7 @@ main .links {
   margin: 100px 0;
 }
 
-.education h3,
-.course h3,
-.projects h3 {
+.education h3, .course h3, .projects h3 {
   font-size: 20px;
 }
 
@@ -153,8 +148,7 @@ main .links {
   color: var(--primary);
 }
 
-.course p a,
-.education p:first-of-type {
+.course p a, .education p:first-of-type {
   font-weight: bold;
   font-size: 16px;
 }
@@ -218,9 +212,11 @@ input[type="color"] {
   width: 32px;
   height: 32px;
 }
+
 input[type="color"]::-webkit-color-swatch-wrapper {
   padding: 0;
 }
+
 input[type="color"]::-webkit-color-swatch {
   border: none;
 }
@@ -233,48 +229,34 @@ input[type="color"]::-webkit-color-swatch {
   font-weight: bold;
 }
 
-.colorHandler button:focus,
-.colorHandler button:hover {
+.colorHandler button:focus, .colorHandler button:hover {
   background-color: var(--primary);
-}
-
-.btn:focus, .btn-large:focus, .btn-small:focus, .btn-floating:focus {
-  background-color: var(--primary) !important;
 }
 
 @media (min-width: 768px) {
   main h1 {
     font-size: 30px;
   }
-
   main .desc {
     font-size: 20px;
   }
-
   main p {
     font-size: 20px;
   }
-
   .tech h4 {
     margin-bottom: 50px;
     font-size: 2.92rem;
   }
-
   .tech .icons img {
     width: 50px;
     height: 50px;
   }
-
   .course h4 {
     font-size: 28px;
   }
-
-  .education h3,
-  .course h3,
-  .projects h3 {
+  .education h3, .course h3, .projects h3 {
     font-size: 30px;
   }
-
   .contact a {
     font-size: 15px;
   }
@@ -284,11 +266,9 @@ input[type="color"]::-webkit-color-swatch {
   main h1 {
     font-size: 30px;
   }
-
   main .desc {
     font-size: 20px;
   }
-
   .course h4 {
     font-size: 28px;
   }
