@@ -500,6 +500,22 @@
           $(this).css("fill", "white");
         }
       );
+      $("#email").focus(
+        function () {
+          $(this).css("fill", _currentFill);
+        },
+        function () {
+          $(this).css("fill", _currentFill);
+        }
+      );
+      $("#btnColor").focus(
+        function () {
+          $(this).css("fill", _currentFill);
+        },
+        function () {
+          $(this).css("fill", _currentFill);
+        }
+      );
       let p = document.querySelector("#myP");
       p.style.color = _currentFill;
       var x, i;

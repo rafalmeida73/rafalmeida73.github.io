@@ -74,7 +74,7 @@ main .links {
   font-size: 9px;
 }
 
-.contact a:hover {
+.contact a:hover, .contact a:focus {
   background-color: var(--primary);
 }
 
